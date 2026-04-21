@@ -11,7 +11,7 @@ Die Anwendung:
 - aktiviert `VMResourceMetering` fuer alle lokalen Hyper-V-VMs
 - misst waehrend der Laufzeit zusaetzlich empfohlene Hyper-V-Host-PerfCounter
 - beendet die Messung kontrolliert per Button
-- schreibt einen kompakten JSON-Report mit den eigentlichen Messergebnissen
+- schreibt standardmaessig einen kompakten JSON-Report mit wichtigen Messwerten fuer Prozessor, Speicher, Netzwerk und Storage
 - protokolliert alle Aktionen in eine Logdatei
 
 ## Bedienung
@@ -23,6 +23,10 @@ Die Anwendung besitzt vier Buttons:
 - `JSON oeffnen`
 - `Exit`
 
+Zusaetzlich gibt es die Checkbox:
+
+- `All Measure`
+
 ## Ausgabe
 
 Es werden erzeugt:
@@ -31,6 +35,8 @@ Es werden erzeugt:
 - ein Ergebnisbereich in der Anwendung
 - Logdateien im Ordner `logs`
 - JSON-Reports im Ordner `reports`
+
+Optional kann ueber `All Measure` die vollstaendige `Measure-VM`-Ausgabe zusaetzlich in die JSON-Datei aufgenommen werden.
 
 ## Voraussetzungen
 

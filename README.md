@@ -1,2 +1,12 @@
 # HVVMResourceMetering.Deploy
-HVVMResourceMetering
+
+Bereitstellungs-Repository fuer die freigegebenen Versionen von `HVVMResourceMetering`.
+
+## Inhalt
+
+- Release-Pakete fuer die Windows-Anwendung
+- kompakte Programmbeschreibung
+
+Die technische Detaildokumentation und der Sourcecode liegen im Repository:
+
+- [HVVMResourceMetering](https://github.com/thomas-lauer/HVVMResourceMetering)

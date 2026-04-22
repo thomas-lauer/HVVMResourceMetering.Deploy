@@ -2,6 +2,8 @@
 
 Bereitstellungs-Repository fuer die freigegebenen Versionen von `HVVMResourceMetering`.
 
+Aktueller Stand: `010`
+
 ## Inhalt
 
 - Release-Pakete fuer die Windows-Anwendung

@@ -4,6 +4,8 @@
 
 `HVVMResourceMetering` ist eine Windows-Anwendung zur Messung von Hyper-V-Ressourcen auf dem lokalen Host.
 
+Aktuelle Release-Version: `010`
+
 ## Hauptfunktion
 
 Die Anwendung:
@@ -12,6 +14,7 @@ Die Anwendung:
 - misst waehrend der Laufzeit zusaetzlich empfohlene Hyper-V-Host-PerfCounter
 - beendet die Messung kontrolliert per Button
 - schreibt standardmaessig einen kompakten JSON-Report mit wichtigen Messwerten fuer Prozessor, Speicher, Netzwerk und Storage
+- verarbeitet Host-PerfCounter robuster, auch wenn PowerShell einzelne Werte als Text oder `null` liefert
 - protokolliert alle Aktionen in eine Logdatei
 
 ## Bedienung
@@ -26,6 +29,8 @@ Die Anwendung besitzt vier Buttons:
 Zusaetzlich gibt es die Checkbox:
 
 - `All Measure`
+
+Die Oberflaeche ist als moderne Windows-Maske mit klar getrennten Bereichen fuer Steuerung, Ergebnis und Log aufgebaut.
 
 ## Ausgabe
 

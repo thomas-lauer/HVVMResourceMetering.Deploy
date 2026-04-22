@@ -2,7 +2,7 @@
 
 Bereitstellungs-Repository fuer die freigegebenen Versionen von `HVVMResourceMetering`.
 
-Aktueller Stand: `012`
+Aktueller Stand: `013`
 
 ## Inhalt
 
